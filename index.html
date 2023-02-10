@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html;>
+    <head>
+<meta charset="uff-8">
+<meta name="viewport" content="width-device-width, initial-scale-10">
+<title>GYM WEBSITE</title>
+<link rel="stylesheet" href="Css/style.css">
+<style>
+    body{
+        color: pink;
+        margin: 0px;
+        padding: 0px;
+        background-image: url("C:/Users/nanda/Downloads/gym2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 35px;
+        top: 50px;
+        border: 2px solid crimson;
+    }
+    .left img{
+        width:80px;
+        height:50px;
+    }
+    .left div{
+        text-align: center;
+        line-height: 30px;
+        font-size: 23px;
+    }
+    .mid{
+        border: 2px solid rgb(27, 35, 192);
+        display: block;
+        width: 33%;
+        margin: 90px auto;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline;
+        font-size: 15px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: white;
+        padding: 34px 10x;
+    }
+    .navbar li a:hover , .navbar li a.active{
+        text-decoration: underline;
+        color: yellow;
+    }
+    .right{
+        border: 2px solid rgb(27, 35, 192);
+        display: inline-block;
+        position: absolute;
+        right: 35px;
+        top: 50px;
+    }
+    .btn{
+        background-color: rgb(128, 0, 68);
+        color: rgb(16, 16, 35);
+        margin: 0px 9 px;
+        padding: 4px 14px;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(27,35, 192);
+        color: yellow;
+    }
+    .container{
+        border: 2px solid  black;
+        margin: 92px 63px;
+        padding: 55px;
+        width: 450px;
+        border-radius: 10px;
+    }
+    .form input{
+        text-align: center;
+        display: block;
+        width: 350px;
+        border-radius: 15px;
+        margin: 15px auto;
+        font-size: 17px;
+        border: 2px solid black;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 50%;
+        margin: 22px auto;
+    }
+    	 /* mobile */
+			@media (max-width: 480px) {
+            body {
+                background-color: rgb(135, 21, 108);
+            }
+        }
+			
+        /* disk top */
+		@media (max-width: 768px) {
+            body {
+                background-color: rgb(22, 15, 122);
+            }
+        }
+			
+			   /* ipad */
+		@media (max-width: 961px) {
+            body {
+                background-color: rgb(0, 255, 140);
+            }
+        }
+        
+</style>
+    </head>
+    <body>
+        <header>
+            <div class="left",>
+               <img src="C:/Users/nanda/Downloads/gym logo.jpg">
+            </div>
+            <div class="mid">
+                <div class="navbar">
+                    <li><a href=""class="active">HOME</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Timings</a></li>
+                    <li><a href="">content us</a></li>
+                </div>
+            </div>
+            <div class="right">
+                <button class="btn">Follow us</button>
+                <button class="btn">call us</button>
+            </div>
+        </header>
+        <div class="container">
+            <h1>Join our Gym</h1>
+            <form action="registation.png">
+                <div class="form">
+                    <input type="text" name="" id="" placeholder="Enter your Name">
+                </div>
+                <div class="form">
+                    <input type="text" name="" id="" placeholder="Enter your Nick Name">
+                </div>
+                <div class="form">
+                    <input type="text" name="" id="" placeholder="Enter your Age">
+                </div>
+                <div class="form">
+                    <input type="text" name="" id="" placeholder="Enter your mobile Number">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
